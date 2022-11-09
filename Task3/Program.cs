@@ -7,11 +7,10 @@
 // 15 18
 Console.Clear();
 
-Console.WriteLine("\n" + "Задача 58." + "\n");
 int line = 2;
 int columns = 2;
 Random rand = new Random();
-Console.WriteLine("Первый массив: ");
+Console.WriteLine("Первая матрица: ");
 int[,] matrix1 = new int[line, columns];
 for (int i = 0; i < matrix1.GetLength(0); i++)
 {
@@ -22,7 +21,7 @@ for (int i = 0; i < matrix1.GetLength(0); i++)
     }
     Console.WriteLine();
 }
-Console.WriteLine("\nВторой массив: ");
+Console.WriteLine("\nВторая матрица: ");
 int[,] matrix2 = new int[line, columns];
 for (int i = 0; i < matrix2.GetLength(0); i++)
 {
@@ -33,7 +32,7 @@ for (int i = 0; i < matrix2.GetLength(0); i++)
     }
     Console.WriteLine();
 }
-Console.WriteLine("\nПроизведение массивов: ");
+Console.WriteLine("\nПроизведение двух матриц: ");
 int[,] matrix3 = new int[line, columns];
 for (int i = 0; i < matrix1.GetLength(0); i++)
 {
