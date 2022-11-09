@@ -25,12 +25,12 @@ Console.WriteLine($"\n{minStringLine + 1} - строкa с наименьшей 
 
 int SumStringElements(int[,] array, int i)
 {
-    int sumString = array[i, 0];
+    int sumLine = array[i, 0];
     for (int j = 1; j < array.GetLength(1); j++)
     {
-        sumString += array[i, j];
+        sumLine += array[i, j];
     }
-    return sumString;
+    return sumLine;
 }
 
 void FillArray(int[,] array)
